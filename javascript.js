@@ -156,4 +156,90 @@ let variableTwo = 10; // Declare another variable and assign a value
 
 // Semicolons are primarily used to mark the end of a statement. This helps the JavaScript engine understand the separation of individual instructions, which is important for correct execution.
 
+// What Is the Role of Semicolons in JavaScript, and Programming in General?
+// In JavaScript, and many other programming languages, semicolons help delineate statements and improve code readability.
 
+// In JavaScript, a semicolon (;) is used to indicate the end of a statement.
+
+// Just as a period (.) marks the end of a sentence in English, a semicolon signifies the end of an executable line of code. This allows the JavaScript engine to distinguish between separate commands.
+
+// For example:
+let variableOne = 5;  // Declare a variable and assign a value
+let variableTwo = 10; // Declare another variable and assign a value
+// In this code, the semicolons at the end of each line mark the end of each statement. Without them, the JavaScript engine might have trouble interpreting where one statement ends and another begins.
+
+// Semicolons are primarily used to mark the end of a statement. This helps the JavaScript engine understand the separation of individual instructions, which is important for correct execution.
+let a = 1;   // Statement ends here
+let b = 2;   // Another statement starts here
+
+// What Are Comments in JavaScript, and When Should You Use Them?
+// Comments in programming are used to provide additional context for the code or leave notes for yourself and others.
+
+// Comments are lines or blocks of text that are ignored by the JavaScript engine when your code is executed. They are there solely for the benefit of people reading the code, whether that's you or someone else.
+// JavaScript provides two ways to add comments to your code: single-line comments and multi-line comments.
+
+// Single-line comments are created using two forward slashes (//). Here is an example:
+
+// This type of comment is great for brief explanations or clarifications.
+
+// Here is a real world example from the freeCodeCamp curriculum project files:
+
+// This is to allow English to build without having to download the i18n files.
+// It fails when trying to resolve the i18n-curriculum path if they don't exist.
+const curriculumLocale = process.env.CURRICULUM_LOCALE ?? 'english';
+const I18N_CURRICULUM_DIR = path.resolve(
+  __dirname,
+  curriculumLocale === 'english' ? '.' : 'i18n-curriculum/curriculum'
+);
+
+
+/* Comments like this are important for those working on teams for two reasons:
+
+ Other developers working on the project will understand the purpose of this code.
+
+ It helps prevent unnecessary changes or deletions without consulting the team, which could lead to bugs or issues.
+
+ Another type of comment is multi-line comments. Here is the basic syntax:
+
+/*
+I am a multiline comment.
+This is helpful for longer explanations.
+*/
+
+/*Multi-line comments are useful when you need to write longer descriptions, explanations, or notes in your code.
+
+Let's take another look at the freeCodeCamp curriculum project files to see how multiline comments can be used in the real world.
+
+/* Since there can be more than one way to complete a certification (using the
+legacy curriculum or the new one, for instance), we need a certification
+field to track which certification this belongs to. */
+const dupeCertifications = [
+  {
+    certification: 'responsive-web-design',
+    dupe: '2022/responsive-web-design'
+  }
+];
+const hasDupe = dupeCertifications.find(
+  cert => cert.dupe === meta.superBlock
+
+
+);
+
+
+
+
+//  Workshop(Build a greeting bot)
+ console.log("Hi there!");
+ console.log("I am excited to talk to you.");
+ let bot;
+ bot = "teacherBot";
+
+ let botLocation = "the universe";
+
+ console.log("Allow me to introduce myself.");
+
+let bot1 = "champerbot";
+
+let botIntroduction = "My name is " + bot1 + ".";
+
+console.log(botIntroduction);
