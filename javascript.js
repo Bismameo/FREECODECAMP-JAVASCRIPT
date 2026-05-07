@@ -260,3 +260,27 @@ const favoriteSubjectSentence = "My favorite subject is " + favoriteSubject + ".
 console.log(favoriteSubjectSentence);
 
 console.log("Well, it was nice to talk to you. Have a nice day!")
+
+
+// javascipt trivia question
+console.log("Hello! I'm your coding fun fact guide!");
+var botName ="bot";
+var botLocation ="camperbot";
+var favoriteLanguage ="english";
+console.log("My name is " + (botName)+" and I live on "+ (botLocation) + ".");
+console.log("My favorite programming language is "+(favoriteLanguage)+".");
+let codingFact = "did you know that "+ favoriteLanguage + "is great for beginner?";
+console.log(codingFact);
+
+
+
+
+ 
+
+
+
+
+
+
+
+
