@@ -269,8 +269,40 @@ var botLocation ="camperbot";
 var favoriteLanguage ="english";
 console.log("My name is " + (botName)+" and I live on "+ (botLocation) + ".");
 console.log("My favorite programming language is "+(favoriteLanguage)+".");
-let codingFact = "did you know that "+ favoriteLanguage + "is great for beginner?";
+console.log( "Hello! I'm your coding fun fact guide!");
+let botName = "bot";
+let botLocation = "chamberbot";
+let favoriteLanguage = "javascript";
+
+
+console.log("My name is " + (botName) + " and I live on " + (botLocation) + ".");
+
+console.log("My favorite programming language is " + (favoriteLanguage)+ ".");
+
+let codingFact = "My favorite programming language is " + favoriteLanguage + ".";
 console.log(codingFact);
+
+codingFact = "I enjoy coding in " + favoriteLanguage + " because it is versatile.";
+console.log(codingFact);
+
+codingFact = favoriteLanguage + " makes web development fun and interactive.";
+console.log(codingFact);
+
+console.log(
+  "It was fun sharing these facts with you. Goodbye! - " +
+    botName +
+    " from " +
+    botLocation +
+    "."
+);
+
+
+
+
+
+
+
+
 
 
 
